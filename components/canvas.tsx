@@ -4,7 +4,6 @@ import React, { use, useEffect, useState, useRef } from "react"
 
 import { useBuilder } from "../context/builder-context"
 import { ELEMENT_REGISTRY } from "@/elements"
-import { el } from "date-fns/locale"
 
 export function Canvas() {
   const { elements, selectedElementId, setSelectedElementId } = useBuilder()
